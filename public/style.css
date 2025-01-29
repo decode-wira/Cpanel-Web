@@ -85,7 +85,8 @@ h1 {
 
 /* Gaya modal */
 .modal {
-    display: none; /* Default tidak terlihat */
+.modal {
+    display: flex; /* Pastikan menggunakan flexbox */
     justify-content: center; /* Pusatkan secara horizontal */
     align-items: center; /* Pusatkan secara vertikal */
     position: fixed;
@@ -100,7 +101,6 @@ h1 {
 .modal-content {
     background-color: #fff;
     padding: 20px;
-    margin: 20px;
     width: 90%;
     max-width: 600px;
     border-radius: 12px;
@@ -108,8 +108,12 @@ h1 {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     text-align: left;
     color: #333;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
 }
-
+    
 .modal-content h3 {
     text-align: center;
     font-size: 1.8em;
