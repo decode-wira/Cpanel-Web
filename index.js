@@ -8,7 +8,7 @@ const port = 3000;
 const validKeys = ['CALL-LINE.02010', 'LINE-OFFICIAL.0208'];
 
 const domain = 'https://ptero.vcloudxofficial.xyz'; // ISI DOMAIN PANEL 
-const apikey = 'ptla_rMsETFmyHcBJq3S8IGbHOSiGxND28TUgQKf35XRsO5b'; // ISI APIKEY PANEL
+const apikey = 'ptla_Ml5sUJNPVrsfKRRMXJhIneZXbAFpAaEZVkavmq24N8c'; // ISI APIKEY PANEL
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
